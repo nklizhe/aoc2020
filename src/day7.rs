@@ -32,7 +32,7 @@ fn bags(rules: &BagRules, key: &str) -> usize {
     let r: &BagList = rules.get(key).unwrap();
     let mut cnt: usize = 1;
     for (k, v) in r {
-        if (*v > 0) {
+        if *v > 0 {
             cnt += (*v) * bags(rules, k);
         }
     }
