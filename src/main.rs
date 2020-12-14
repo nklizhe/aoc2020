@@ -4,7 +4,7 @@
 // mod day4;
 // mod day5;
 // mod day6;
-mod day7;
+mod day8;
 mod utils;
 
 fn main() {
@@ -14,5 +14,5 @@ fn main() {
     // day4::run();
     // day5::run();
     // day6::run();
-    day7::run();
+    day8::run();
 }
